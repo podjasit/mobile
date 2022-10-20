@@ -1,7 +1,7 @@
 package com.example.mobile.HW01
 
 fun main(){
-    val p = 80
+    val p = 49
     println("""
 ได้คะแนน : $p
     """)
@@ -10,6 +10,9 @@ fun main(){
 fun point(p1:Int){
     return(
             when(p1) {
+                in 1..49->{
+                    println("*** เกรด 0 ***")
+                }
                 in 50..59->{
                     println("*** เกรด 1 ***")
                 }

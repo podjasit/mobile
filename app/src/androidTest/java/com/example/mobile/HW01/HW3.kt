@@ -1,7 +1,7 @@
 package com.example.mobile.HW01
 
 fun main(){
-    val m = 146894
+    val m = 1065
     Function(m)
 }
 fun Function(m:Int){
